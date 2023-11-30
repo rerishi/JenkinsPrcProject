@@ -40,5 +40,8 @@ public class BaseTest {
 		}
 		
 		driver.get(URL);
+		
+		System.out.println(URL);
+		System.out.println(BROWSER);
 	}
 }
