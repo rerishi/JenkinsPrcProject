@@ -15,8 +15,8 @@ public class BaseTest {
 	@Test
 	public void jenkinsParameterTest()
 	{
-		String BROWSER=System.getProperty("browser");
-		String URL=System.getProperty("url");
+		String BROWSER=System.getProperty("s_browser");
+		String URL=System.getProperty("s_url");
 		
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
